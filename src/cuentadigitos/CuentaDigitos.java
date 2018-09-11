@@ -31,6 +31,34 @@ public class CuentaDigitos {
     //Creo un objeto de la clase Scanner
     Scanner entrada = new Scanner (System.in);
     
+    // Pido el número por teclado
+    
+    System.out.println("Introduzca un numero entero y te diré cuántas cifras tiene: ");
+    
+    numeroIntroducido = entrada.nextInt();
+    
+    // Comienzo el bucle
+    
+    if ((numeroIntroducido >=0) && (numeroIntroducido <10)){
+      
+      System.out.println("El número tiene una cifra");
+      
+    }else if ((numeroIntroducido >=10 ) && (numeroIntroducido < 100)){
+      
+      System.out.println("El número tiene dos cifras");
+      
+    }else if ((numeroIntroducido >=100 ) && (numeroIntroducido < 1000)){
+      
+      System.out.println("El número tiene tres cifras");
+      
+    }else if ((numeroIntroducido >=1000 ) && (numeroIntroducido < 10000)){
+      
+      System.out.println("El número tiene cuatro cifras");
+      
+    }else
+      
+      System.out.println("El número tiene 5 o más cifras ");
+    
     
     
     
