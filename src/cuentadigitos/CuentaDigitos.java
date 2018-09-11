@@ -28,6 +28,11 @@ public class CuentaDigitos {
     
     int numeroIntroducido;
     
+    //Creo un objeto de la clase Scanner
+    Scanner entrada = new Scanner (System.in);
+    
+    
+    
     
   }
 
