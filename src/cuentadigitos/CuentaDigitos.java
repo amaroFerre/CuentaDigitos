@@ -22,7 +22,13 @@ public class CuentaDigitos {
     // TODO code application logic here
 
     // Realiza un programa que nos diga cuántos dígitos tiene un número introducido
-//por teclado.
+    //por teclado.
+    
+    // Creo una variable de tipo entero
+    
+    int numeroIntroducido;
+    
+    
   }
 
 }
